@@ -186,9 +186,9 @@
 //    #define  DEFAULT_Kd 440
 
 // Type A Machines Series One
-//    #define  DEFAULT_Kp 24.7
-//    #define  DEFAULT_Ki 0.88
-//    #define  DEFAULT_Kd 231
+    #define  DEFAULT_Kp 24.7
+    #define  DEFAULT_Ki 0.88
+    #define  DEFAULT_Kd 231
 
 #endif // PIDTEMP
 
