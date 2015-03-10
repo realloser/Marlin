@@ -50,6 +50,9 @@
 	#define FIRMWARE_URL "https://github.com/ErikZalm/Marlin/"
 #endif
 
+// Overrides for Type A Machines Series 1
+#define MACHINE_NAME "Type A Machines Series 1"
+#define FIRMWARE_URL "https://www.bitbucket.org/typeamachines/marlin"
 
 #ifndef MACHINE_UUID
    #define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
