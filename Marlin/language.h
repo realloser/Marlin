@@ -50,6 +50,9 @@
 	#define FIRMWARE_URL "https://github.com/ErikZalm/Marlin/"
 #endif
 
+// Overrides for Type A Machines Series 1
+#define MACHINE_NAME "Type A Machines Series 1"
+#define FIRMWARE_URL "https://www.bitbucket.org/typeamachines/marlin"
 
 #ifndef MACHINE_UUID
    #define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
@@ -219,7 +222,7 @@
 	#define MSG_HEATING_COMPLETE "Heating done."
 	#define MSG_BED_HEATING "Bed Heating."
 	#define MSG_BED_DONE "Bed done."
-	#define MSG_M115_REPORT "FIRMWARE_NAME:Marlin V1; Sprinter/grbl mashup for gen6 FIRMWARE_URL:" FIRMWARE_URL " PROTOCOL_VERSION:" PROTOCOL_VERSION " MACHINE_TYPE:" MACHINE_NAME " EXTRUDER_COUNT:" STRINGIFY(EXTRUDERS) " UUID:" MACHINE_UUID "\n"
+	#define MSG_M115_REPORT "FIRMWARE_NAME:Marlin " STRING_CONFIG_H_AUTHOR " FIRMWARE_URL:" FIRMWARE_URL " PROTOCOL_VERSION:" PROTOCOL_VERSION " MACHINE_TYPE:" MACHINE_NAME " EXTRUDER_COUNT:" STRINGIFY(EXTRUDERS) " UUID:" MACHINE_UUID "\n"
 	#define MSG_COUNT_X " Count X: "
 	#define MSG_ERR_KILLED "Print interrupted by stop button. To re-enable printing, push the front panel button back in, in the Connection section click on Connect then wait for the printer to reconnect. You will need to restart your print."
 	#define MSG_ERR_STOPPED "Printer stopped due to errors. Fix the error and use M999 to restart. (Temperature is reset. Set it after restarting)"
