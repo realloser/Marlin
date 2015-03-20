@@ -1601,7 +1601,7 @@
  #define TEMP_2_PIN         -1
  #define HEATER_2_PIN       -1
 #else
- #define HEATER_2_PIN        6    // EXTRUDER 3
+ #define HEATER_2_PIN        -1    // EXTRUDER 3
  #if (TEMP_SENSOR_2==-1)
   #define TEMP_2_PIN         7    // ANALOG NUMBERING - connector *K3* on RUMBA thermocouple ADD ON is used <-- this can not be used when TEMP_SENSOR_BED is defined as thermocouple
  #else
@@ -1616,7 +1616,7 @@
  #define TEMP_BED_PIN       -1
  #define HEATER_BED_PIN     -1
 #else
- #define HEATER_BED_PIN      9    // BED
+ #define HEATER_BED_PIN      6    // BED
  #if (TEMP_SENSOR_BED==-1)
   #define TEMP_BED_PIN       7    // ANALOG NUMBERING - connector *K3* on RUMBA thermocouple ADD ON is used <-- this can not be used when TEMP_SENSOR_2 is defined as thermocouple
  #else
