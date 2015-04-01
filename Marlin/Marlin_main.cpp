@@ -1993,7 +1993,6 @@ void process_commands()
           }
         #endif //TEMP_RESIDENCY_TIME
         }
-        SERIAL_PROTOCOLPGM(MSG_HEATING_COMPLETE);
         LCD_MESSAGEPGM(MSG_HEATING_COMPLETE);
         starttime=millis();
         previous_millis_cmd = millis();
@@ -2001,7 +2000,6 @@ void process_commands()
       break;
     case 190: // M190 - Wait for bed heater to reach target.
     #if defined(TEMP_BED_PIN) && TEMP_BED_PIN > -1
-        SERIAL_PROTOCOLPGM(MSG_BED_HEATING);
         LCD_MESSAGEPGM(MSG_BED_HEATING);
         if (code_seen('S')) {
           setTargetBed(code_value());
@@ -2033,7 +2031,6 @@ void process_commands()
           lcd_update();
         }
         LCD_MESSAGEPGM(MSG_BED_DONE);
-        SERIAL_PROTOCOLPGM(MSG_BED_DONE);
         previous_millis_cmd = millis();
     #endif
         break;
