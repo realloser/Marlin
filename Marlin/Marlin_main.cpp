@@ -2429,6 +2429,7 @@ Sigma_Exit:
       if(setTargetedHotend(109)){
         break;
       }
+      SERIAL_PROTOCOLPGM("Heating");
       LCD_MESSAGEPGM(MSG_HEATING);
       #ifdef AUTOTEMP
         autotemp_enabled=false;
