@@ -59,8 +59,9 @@
 # https://github.com/sudar/Arduino-Makefi ... example.mk (Makefile contents)
 # http://www.martyndavis.com/?p=335 (Verification and guidance on ard-parse-boards not being found, though solution is my own
 # http://www.deanmao.com/2012/08/10/uploa ... on-the-pi/
-PATH=$PATH:/usr/ubuntu/Arduino-Makefile/
 
-make
+sudo service octoprint stop
 
 sudo make upload
+
+sudo service octoprint start
