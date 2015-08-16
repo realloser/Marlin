@@ -59,4 +59,15 @@
 # https://github.com/sudar/Arduino-Makefi ... example.mk (Makefile contents)
 # http://www.martyndavis.com/?p=335 (Verification and guidance on ard-parse-boards not being found, though solution is my own
 # http://www.deanmao.com/2012/08/10/uploa ... on-the-pi/
-PATH=$PATH:/usr/ubuntu/Arduino-Makefile/
+
+# http://forum.typeamachines.com/viewtopic.php?f=12&t=898&p=6379&hilit=Arduino+Make#p6379
+
+sudo apt-get update
+sudo apt-get install arduino-core make socat samba
+sudo apt-get install arduino-mk make libyaml-perl libdevice-serialport-perl
+
+cd ~
+git clone https://github.com/sudar/Arduino-Makefile
+# git clone https://github.com/typeamachines/marlin
+
+export PATH=$PATH:/usr/share/arduino/
