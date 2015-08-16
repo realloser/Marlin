@@ -66,8 +66,7 @@ sudo apt-get update
 sudo apt-get install arduino-core make socat samba
 sudo apt-get install arduino-mk make libyaml-perl libdevice-serialport-perl
 
-cd ~
-git clone https://github.com/sudar/Arduino-Makefile
+git clone https://github.com/sudar/Arduino-Makefile ~/Arduino-Makefile
 # git clone https://github.com/typeamachines/marlin
 
 export PATH=$PATH:/usr/share/arduino/
