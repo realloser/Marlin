@@ -159,9 +159,9 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 325
-#define HEATER_1_MAXTEMP 325
-#define HEATER_2_MAXTEMP 325
+#define HEATER_0_MAXTEMP 260
+#define HEATER_1_MAXTEMP 260
+#define HEATER_2_MAXTEMP 260
 #define BED_MAXTEMP 150
 
 // If your bed has low resistance e.g. .6 ohm and throws the fuse you can duty cycle it to reduce the
@@ -189,9 +189,14 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Type A Machines, Winchester G2 24v
-    #define  DEFAULT_Kp 7.89
-    #define  DEFAULT_Ki 0.38
-    #define  DEFAULT_Kd 40.71
+//    #define  DEFAULT_Kp 7.89
+//    #define  DEFAULT_Ki 0.38
+//    #define  DEFAULT_Kd 40.71
+
+// Type A Machines, E3D v6
+    #define  DEFAULT_Kp 29.23
+    #define  DEFAULT_Ki 3.38
+    #define  DEFAULT_Kd 63.21
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
