@@ -1,6 +1,6 @@
 PROJECT_DIR = ./Marlin
 ARDMK_DIR = ~/Arduino-Makefile
-ARDUINO_DIR = $(ARDMK_DIR)
+ARDUINO_DIR = /usr/share/arduino
 USER_LIB_PATH := $(PROJECT_DIR)/lib
 BOARD_TAG = mega2560
 MONITOR_BAUDRATE = 115200
