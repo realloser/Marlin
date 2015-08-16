@@ -194,9 +194,9 @@
 //    #define  DEFAULT_Kd 40.71
 
 // Type A Machines, E3D v6
-    #define  DEFAULT_Kp 29.23
-    #define  DEFAULT_Ki 3.38
-    #define  DEFAULT_Kd 63.21
+    #define  DEFAULT_Kp 31.11
+    #define  DEFAULT_Ki 3.54
+    #define  DEFAULT_Kd 68.31
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
