@@ -62,6 +62,7 @@
 
 sudo service octoprint stop
 
+make upload
 sudo make upload
 
 sudo service octoprint start
