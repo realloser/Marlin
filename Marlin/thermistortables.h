@@ -956,6 +956,43 @@ const short temptable_12[][2] PROGMEM = {
    {1023*OVERSAMPLENR, -40},
 };
 #endif
+#if (THERMISTORBED == 13) //100k bed thermistor Type A Machines Heated Bed V2
+
+const short temptable_13[][2] PROGMEM = {
+{       245*OVERSAMPLENR        ,       187     },
+{       268*OVERSAMPLENR        ,       182     },
+{       293*OVERSAMPLENR        ,       176     },
+{       320*OVERSAMPLENR        ,       171     },
+{       348*OVERSAMPLENR        ,       164     },
+{       379*OVERSAMPLENR        ,       159     },
+{       411*OVERSAMPLENR        ,       152     },
+{       445*OVERSAMPLENR        ,       148     },
+{       480*OVERSAMPLENR        ,       141     },
+{       516*OVERSAMPLENR        ,       136     },
+{       553*OVERSAMPLENR        ,       130     },
+{       591*OVERSAMPLENR        ,       125     },
+{       628*OVERSAMPLENR        ,       118      },
+{       665*OVERSAMPLENR        ,       110     },
+{       702*OVERSAMPLENR        ,       106   },
+{       737*OVERSAMPLENR        ,       101   },
+{       770*OVERSAMPLENR        ,       89     },
+{       801*OVERSAMPLENR        ,       84    },
+{       830*OVERSAMPLENR        ,       79     },
+{       857*OVERSAMPLENR        ,       72    },
+{       881*OVERSAMPLENR        ,       65     },
+{       903*OVERSAMPLENR        ,       60		},
+{       922*OVERSAMPLENR        ,       51      },
+{       939*OVERSAMPLENR        ,       46      },
+{       954*OVERSAMPLENR        ,       35      },
+{       966*OVERSAMPLENR        ,       30      },
+{       977*OVERSAMPLENR        ,       25      },
+{       985*OVERSAMPLENR        ,       20      },
+{       993*OVERSAMPLENR        ,       15      },
+{       999*OVERSAMPLENR        ,       10      },
+{       1004*OVERSAMPLENR       ,       5       },
+{       1008*OVERSAMPLENR       ,       0       } //safety
+};
+#endif
 
 // Pt1000 and Pt100 handling
 // 

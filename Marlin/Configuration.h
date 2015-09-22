@@ -15,7 +15,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_VERSION "1.2.1"
+#define STRING_VERSION "1.3.0"
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "(Type A Machines v" STRING_VERSION " heated bed)" // Who made the changes.
 
@@ -134,10 +134,12 @@
 // 147 is Pt100 with 4k7 pullup
 // 110 is Pt100 with 1k pullup (non standard)
 
+//define thermistor table for heater values
+
 #define TEMP_SENSOR_0 1
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
-#define TEMP_SENSOR_BED 1
+#define TEMP_SENSOR_BED 13
 
 // This makes temp sensor 1 a redundant sensor for sensor 0. If the temperatures difference between these sensors is to high the print will be aborted.
 //#define TEMP_SENSOR_1_AS_REDUNDANT
