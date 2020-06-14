@@ -15,7 +15,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_VERSION "1.2.1 Martyn"
+#define STRING_VERSION "1.2.2 Martyn"
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "(Type A Machines v" STRING_VERSION ")" // Who made the changes.
 
@@ -193,10 +193,16 @@
 //    #define  DEFAULT_Ki 0.38
 //    #define  DEFAULT_Kd 40.71
 
+// Type A Machines, Hymera 12v heater
+// Autotune result: M301 P10.14 I1.05 D24.59
+    #define  DEFAULT_Kp 10.14
+    #define  DEFAULT_Ki 1.05
+    #define  DEFAULT_Kd 24.59
+
 // Type A Machines, E3D v6
-    #define  DEFAULT_Kp 31.11
-    #define  DEFAULT_Ki 3.54
-    #define  DEFAULT_Kd 68.31
+    // #define  DEFAULT_Kp 31.11
+    // #define  DEFAULT_Ki 3.54
+    // #define  DEFAULT_Kd 68.31
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
@@ -313,7 +319,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define DISABLE_E true // For all extruders
 #define DISABLE_INACTIVE_EXTRUDER true //disable only inactive extruders and keep active extruder enabled
 
-#define INVERT_X_DIR true    // for Mendel set to false, for Orca set to true
+#define INVERT_X_DIR false    // for Mendel set to false, for Orca set to true
 #define INVERT_Y_DIR true    // for Mendel set to true, for Orca set to false
 #define INVERT_Z_DIR true     // for Mendel set to false, for Orca set to true
 #define INVERT_E0_DIR false   // for direct drive extruder v9 set to true, for geared extruder set to false
