@@ -209,7 +209,7 @@
 //    #define  DEFAULT_Ki 0.38
 //    #define  DEFAULT_Kd 40.71
 
-// Type A Machines, Hymera 12v heater
+// Type A Machines, Hemera 12v heater
 // Autotune result: M301 P10.14 I1.05 D24.59
     #define  DEFAULT_Kp 10.14
     #define  DEFAULT_Ki 1.05
@@ -335,7 +335,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define DISABLE_E true // For all extruders
 #define DISABLE_INACTIVE_EXTRUDER true //disable only inactive extruders and keep active extruder enabled
 
-#define INVERT_X_DIR fale    // for Mendel set to false, for Orca set to true
+#define INVERT_X_DIR false    // for Mendel set to false, for Orca set to true
 #define INVERT_Y_DIR false    // for Mendel set to true, for Orca set to false
 #define INVERT_Z_DIR false     // for Mendel set to false, for Orca set to true
 #define INVERT_E0_DIR true   // for direct drive extruder v9 set to true, for geared extruder set to false
