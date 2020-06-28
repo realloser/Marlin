@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Mac",
+            "macFrameworkPath": [],
+            "includePath": [
+                "/Users/realloser/sandbox/Marlin/include",
+                "/Users/realloser/sandbox/Marlin/src",
+                "/Users/realloser/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/realloser/sandbox/Marlin/include",
+                    "/Users/realloser/sandbox/Marlin/src",
+                    "/Users/realloser/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=180000000L",
+                "RUMBA32_F446VE",
+                "PLATFORMIO=40304",
+                "STM32F446xx",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/Users/realloser/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

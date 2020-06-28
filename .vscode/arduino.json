@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:mega",
+    "configuration": "cpu=atmega2560",
+    "sketch": "Marlin/Marlin.ino",
+    "port": "/dev/tty.usbmodem14301"
+}
