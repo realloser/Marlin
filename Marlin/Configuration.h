@@ -1,3 +1,19 @@
+// Settings Stored
+// Steps per unit:
+// M92 X80.00 Y80.00 Z800.00 E400.00
+// Maximum feedrates (mm/s):
+// M203 X500.00 Y500.00 Z12.50 E500.00
+// Maximum Acceleration (mm/s2):
+// M201 X900 Y900 Z25 E8000
+// Acceleration: S=acceleration, T=retract acceleration
+// M204 S9810.00 T9810.00
+// Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+// M205 S0.00 T0.00 B20000 X25.00 Z5.00 E5.00
+// Home offset (mm):
+// M206 X0.00 Y0.00 Z0.00
+// PID settings:
+// M301 P10.14 I1.05 D24.59
+
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
