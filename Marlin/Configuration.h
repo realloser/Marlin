@@ -1,18 +1,19 @@
 // Settings Stored
 // Steps per unit:
-// M92 X80.00 Y80.00 Z800.00 E400.00
+// Steps per unit:
+//   M92 X80.00 Y80.00 Z800.00 E400.00
 // Maximum feedrates (mm/s):
-// M203 X500.00 Y500.00 Z12.50 E500.00
+//   M203 X500.00 Y500.00 Z12.50 E500.00
 // Maximum Acceleration (mm/s2):
-// M201 X900 Y900 Z25 E8000
+//   M201 X200 Y200 Z25 E8000
 // Acceleration: S=acceleration, T=retract acceleration
-// M204 S9810.00 T9810.00
+//   M204 S9810.00 T9810.00
 // Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
-// M205 S0.00 T0.00 B20000 X25.00 Z5.00 E5.00
+//   M205 S0.00 T0.00 B20000 X25.00 Z5.00 E5.00
 // Home offset (mm):
-// M206 X0.00 Y0.00 Z0.00
+//   M206 X0.00 Y0.00 Z0.00
 // PID settings:
-// M301 P10.14 I1.05 D24.59
+//    M301 P11.60 I1.05 D31.93
 
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
@@ -31,7 +32,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_VERSION "1.2.4 Martyn"
+#define STRING_VERSION "1.2.5 Martyn"
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "(Type A Machines v" STRING_VERSION ")" // Who made the changes.
 
