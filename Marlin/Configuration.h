@@ -210,10 +210,10 @@
 //    #define  DEFAULT_Kd 40.71
 
 // Type A Machines, Hemera 12v heater
-// Autotune result: M301 P10.14 I1.05 D24.59
-    #define  DEFAULT_Kp 10.14
+// Autotune result: M301 P11.60 I1.05 D31.93
+    #define  DEFAULT_Kp 11.60
     #define  DEFAULT_Ki 1.05
-    #define  DEFAULT_Kd 24.59
+    #define  DEFAULT_Kd 31.93
 
 // Type A Machines, E3D v6
     // #define  DEFAULT_Kp 31.11
